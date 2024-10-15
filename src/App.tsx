@@ -1,7 +1,8 @@
 import React from 'react';
+import './test.css';
 
 const App: React.FC = () => {
-    return <div>Hello, Webpack with React and TypeScript!</div>;
+    return <div className={"test"}>Hello, Webpack with React and TypeScript!</div>;
 };
 
 export default App;
